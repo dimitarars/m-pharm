@@ -26,15 +26,42 @@ const ProductDetail: React.FC = () => {
         ? localize(product.quickViewDescription, lang)
         : '';
 
+    const SITE = 'https://www.medicopharmk.com';
+    const imageUrl = product.image.startsWith('http') ? product.image : `${SITE}${product.image}`;
+    const productSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: product.title,
+        image: imageUrl,
+        description,
+        brand: { '@type': 'Brand', name: 'Medicopharm' },
+        manufacturer: { '@type': 'Organization', name: 'Medicopharm', url: SITE },
+        offers: {
+            '@type': 'Offer',
+            url: `${SITE}/products/${product.id}`,
+            priceCurrency: 'BGN',
+            availability: 'https://schema.org/InStock',
+            seller: { '@type': 'Organization', name: 'Medicopharm' },
+        },
+    };
+
     return (
         <main className="container my-5">
             <Helmet>
                 <html lang={i18n.language} />
                 <title>{`${product.title} | Medicopharm`}</title>
                 <meta name="description" content={description} />
+                <link rel="canonical" href={`${SITE}/products/${product.id}`} />
+                <meta property="og:type" content="product" />
+                <meta property="og:url" content={`${SITE}/products/${product.id}`} />
                 <meta property="og:title" content={`${product.title} | Medicopharm`} />
                 <meta property="og:description" content={description} />
-                <meta property="og:image" content={product.image} />
+                <meta property="og:image" content={imageUrl} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={`${product.title} | Medicopharm`} />
+                <meta name="twitter:description" content={description} />
+                <meta name="twitter:image" content={imageUrl} />
+                <script type="application/ld+json">{JSON.stringify(productSchema)}</script>
             </Helmet>
             <div className="row g-5 align-items-center">
                 {/* Left: Product Image */}
@@ -43,6 +70,7 @@ const ProductDetail: React.FC = () => {
                         src={product.image}
                         alt={product.title}
                         className="img-fluid"
+                        loading="eager"
                         style={{maxWidth: '100%', height: 'auto', maxHeight: '500px'}}
                     />
                 </div>

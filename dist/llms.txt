@@ -1,0 +1,60 @@
+# Medicopharm
+
+> Bulgarian pharmaceutical production laboratory founded in 1995, specialising in dietary supplements, oral care, and foot care products. GMP certified. All products use proprietary technologies protected by patents.
+
+## Company
+
+- [Home](https://www.medicopharmk.com/): Medicopharm company overview, mission, and product highlights
+- [Contact](https://www.medicopharmk.com/contact): Contact details, address, phone, fax, email, and enquiry form
+
+**Address:** 64, Chataldja str., 1504 Sofia, Bulgaria
+**Phone:** +359 2 9431800
+**Fax:** +359 2 9431636
+**Mobile:** +359 878 923575, +359 878 240196
+**Email:** mpharm@mail.bg
+**Website:** https://www.medicopharmk.com
+**Founded:** 1995
+**Certification:** GMP (Good Manufacturing Practice)
+
+## Products
+
+- [All Products](https://www.medicopharmk.com/products): Full product catalogue — dietary supplements, oral care, foot care
+
+### Dietary Supplements — Apple Pectin Based
+
+- [Apple Aqua Dia Pectin](https://www.medicopharmk.com/products/AppleAquaDiaPectin): Apple pectin-based dietary supplement for detox and digestive support
+- [Apple Aqua Pectin Detox Filter](https://www.medicopharmk.com/products/AppleAquaPectinDetoxFilter): Apple pectin detox and filtration supplement
+- [Apple Aqua Pectin Professional](https://www.medicopharmk.com/products/AppleAquaPectinProfessional): Professional-grade apple pectin supplement
+- [ProBio Pectin 6 Sachets](https://www.medicopharmk.com/products/ProBioPectin6Sasets): Probiotic pectin supplement, 6-sachet pack
+- [ProBio Pectin 250g](https://www.medicopharmk.com/products/ProBioPectin250g): Probiotic pectin supplement, 250g bulk pack
+
+### Dietary Supplements — Others
+
+- [Calciev Gluconat](https://www.medicopharmk.com/products/CalcievGluconat): Calcium gluconate dietary supplement
+- [Natriev Citrat](https://www.medicopharmk.com/products/NatrievCitrat): Sodium citrate dietary supplement
+- [Osteolla](https://www.medicopharmk.com/products/Osteolla): Bone and joint support supplement
+
+### Oral Care
+
+- [OralProtect Classic](https://www.medicopharmk.com/products/OralProtectClassic): Classic oral care mouthwash
+- [OralProtect Forte](https://www.medicopharmk.com/products/OralProtectForte): Forte-strength oral care mouthwash
+- [OralProtect Jazzy](https://www.medicopharmk.com/products/OralProtectJazzy): Jazzy variant oral care mouthwash
+- [OralProtect Za Pushachi](https://www.medicopharmk.com/products/OralProtectZaPushachi): Oral care product for smokers
+- [Svezh Dyh](https://www.medicopharmk.com/products/SvezhDyh): Fresh breath oral care product
+
+### Foot Care
+
+- [MycoProtect Foot Powder](https://www.medicopharmk.com/products/MycoProtectFootPowder): Antifungal foot powder
+- [MycoProtect Foot Spray](https://www.medicopharmk.com/products/MycoProtectFootSpray): Antifungal foot spray
+- [MycoProtect Fungi](https://www.medicopharmk.com/products/MycoProtectFungi): Antifungal foot treatment
+- [Fresh Foot Spray](https://www.medicopharmk.com/products/FreshFootSpray): Refreshing foot spray
+- [Foot Odour Free](https://www.medicopharmk.com/products/FootOderFree): Foot odour eliminator
+- [Corns Callouts Cleaner](https://www.medicopharmk.com/products/CornsCalloutsCleaner): Corns and calluses treatment
+
+## Technology
+
+The laboratory's formulation expertise covers: liquid solutions, molecular formulations, emulsions, suspensions, nanogel, sprays, granules, powders, gels, pastes, and creams. The team includes industrial pharmacists, bioengineers, biotechnologists, and electronic and mechanical engineers.
+
+## Languages
+
+Site available in: English, Bulgarian (Български), German (Deutsch), French (Français).

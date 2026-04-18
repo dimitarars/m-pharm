@@ -99,6 +99,7 @@ const Products: React.FC = () => {
                                             src={product.image}
                                             className="card-img-top"
                                             alt={product.title}
+                                            loading="lazy"
                                             style={{width: '100%', height: '300px', objectFit: 'contain'}}
                                         />
                                         <div
