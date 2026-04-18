@@ -1,0 +1,28 @@
+.navbar-custom {
+    background-color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: grey !important;
+}
+
+.navbar-nav .nav-link i {
+    color: #184288 !important;
+    margin-right: 4px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse .navbar-nav {
+        align-items: flex-end;
+    }
+
+    /* This ensures the icons and text inside the links are also right-aligned */
+    .navbar-collapse .nav-link {
+        justify-content: flex-end;
+        text-align: right;
+    }
+}

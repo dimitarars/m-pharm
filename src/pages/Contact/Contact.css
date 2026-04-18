@@ -1,0 +1,108 @@
+.contact-page {
+    min-height: 80vh;
+}
+
+.contact-hero {
+    background: linear-gradient(135deg, #184288 0%, #2a5fa8 100%);
+    color: white;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    margin-bottom: 0;
+}
+
+.contact-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: #184288;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.contact-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #888;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.contact-value {
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.5;
+}
+
+.contact-link {
+    color: #184288;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-link:hover {
+    color: #2a5fa8;
+    text-decoration: underline;
+}
+
+.form-section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #184288;
+    margin-bottom: 1.5rem;
+}
+
+.contact-input {
+    border: 1.5px solid #d0d8e8;
+    border-radius: 8px;
+    font-size: 0.97rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.contact-input:focus {
+    border-color: #184288;
+    box-shadow: 0 0 0 3px rgba(24, 66, 136, 0.12);
+}
+
+.contact-submit-btn {
+    background-color: #184288;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.65rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.contact-submit-btn:hover {
+    background-color: #2a5fa8;
+    color: #fff;
+}
+
+.contact-submit-btn:active {
+    transform: scale(0.98);
+}
